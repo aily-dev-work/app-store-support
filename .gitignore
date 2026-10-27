@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+# Additional security exclusions
+.DS_Store
+*.pem
+*.key
+*.p12
+*.p8
+*.keystore
